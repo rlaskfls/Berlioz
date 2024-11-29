@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Berlioz </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="index.html">
+    <img src="berlioz logo.png"></a>
+    <div>
+      <a href="trial.html">
+      <h1>uk/europe tour 2025</h1></a>
+    </div>
+    <div class="clock">
+    <span id="datetime"></span>
+    <script>
+      function updateDateTime() {
+        const now = new Date();
+        const currentDateTime = now.toLocaleString();
+        document.querySelector('#datetime').textContent = currentDateTime;
+      }
+      setInterval(updateDateTime, 1000);
+    </script>
+    </div>
+    <div>
+        <a href="schedule.html">
+        <img class="berlioz-poster" src="berlioz poster.tiff"/></a>
+    </div>
+    <a href="about.html">
+    <h5 class="fun">about berlioz</h5></a>
+</body>
