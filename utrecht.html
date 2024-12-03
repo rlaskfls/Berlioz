@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nottingham / UK </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+          background-image: url('utrecht_bg.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 50%;
+          background-position: center;
+          background-position-y: 100px;
+        }
+        </style>
+</head>
+<body>
+    <a href="index.html">
+    <img src="berlioz logo.png"></a>
+    <h1>Utrecht / The Netherlands</h1>
+    <video width="500" height="440" autoplay loop>
+        <source src="utrecht_video.mp4" type="video/mp4">
+      </video>
+    <div class="popup" onclick="myFunction()">*
+    <span class="popuptext" id="myPopup">setlist...
+        <br>
+        ascension / 3:12
+        <br>
+        open this wall / 2:36
+        <br>
+        peace / 3:39
+        <br>
+        hot slow / 3:35
+        <br>
+        ode to rahsaan / 3:20
+        <br>
+        nytmp / 2:43
+        <br>
+        jocelyns dance / 3:18
+        <br>
+        indigo dream / 2:54
+        <br>
+        free fall / 3:27
+        <br>
+        something will happen / 2:59
+        <br>
+        nyc in 1940 / 2:36
+        <br>
+        deep in it / 2:54
+        <br>
+        r&r / 3:27
+    </span>
+    </div>
+    <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+    </script>
+</body>
